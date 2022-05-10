@@ -1,9 +1,10 @@
-
+import ChessBoard from "./component/chessboard";
+import styling from "./style/App.module.css";
 
 function App() {
   return (
-    <div className="App">
-     
+    <div className={styling.App}>
+     <ChessBoard/>
     </div>
   );
 }
