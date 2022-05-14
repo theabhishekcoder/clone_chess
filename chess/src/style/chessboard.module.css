@@ -9,10 +9,3 @@
     grid-template-rows: repeat(8,100px);
 }
 
-.chessboard .green{
-    background-color: #799556;
-}
-
-.chessboard .white{
-    background-color: rgb(255, 255, 255);
-}
