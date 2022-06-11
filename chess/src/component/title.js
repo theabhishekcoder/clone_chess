@@ -1,20 +1,13 @@
 import styling from "../style/title.module.css";
 
-// import Pawn_position from "../Position";
+//import{ Pawn_position} from "../Position";
 
-export default function Titled({position}){
+export default function Titled({position,img}){
 
-    // console.log(Pawn_position)
     return(<>
     <div className={position?styling.green : styling.white }>
-        {/* <img src="img/B_pawn.png" alt="pieces"/> */}
-        {/* {
-            Pawn_position.map((val) => {
-                return(<>
-                <img src="img/B_pawn.png" alt="pieces"/>
-                </>)
-            } )
-        } */}
+       { img?<img src={img} alt="pieces"/>:<></> }
+       
     </div>
     </>)
 }
